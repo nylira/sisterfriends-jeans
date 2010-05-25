@@ -1,0 +1,224 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none; }
+
+q:before, q:after {
+  content: "";
+  content: none; }
+
+:focus {
+  outline: 0; }
+
+ins {
+  text-decoration: none; }
+
+del {
+  text-decoration: line-through; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+img {
+  vertical-align: bottom; }
+
+header, nav, section, article, aside, footer {
+  display: block; }
+
+strong {
+  font-weight: bold; }
+
+em {
+  font-style: italic; }
+
+.cnt, #header .nav, #content #clothing, footer {
+  width: 1008px;
+  margin: 0 auto; }
+  .cnt:after, #header .nav:after, #content #clothing:after, footer:after {
+    clear: both;
+    display: block;
+    content: "\0020"; }
+
+select, label {
+  background: rgba(0, 0, 0, 0.3);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.1)));
+  background: -moz-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)); }
+
+select, label.dollar + input {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-right-color: rgba(255, 255, 255, 0.1);
+  border-bottom-color: rgba(255, 255, 255, 0.2);
+  border-left-color: rgba(0, 0, 0, 0.15); }
+
+select, label, label.dollar + input {
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px; }
+
+select {
+  width: 198px;
+  font: 14px/24px Arial;
+  color: white; }
+  select option {
+    color: white;
+    background: #444444; }
+
+label.dollar {
+  display: block;
+  width: 178px;
+  padding: 0 10px;
+  font: 24px/48px Arial;
+  transition: all 0.15s ease;
+  -webkit-transition: all 0.15s ease;
+  -moz-transition: all 0.15s ease;
+  -o-transition: all 0.15s ease; }
+label.focus {
+  color: #666666; }
+label.has-text {
+  color: transparent;
+  -webkit-transition-duration: 0s;
+  -moz-transition-duration: 0s;
+  -o-transition-duration: 0s; }
+label.dollar + .input {
+  display: block;
+  margin-top: -48px;
+  width: 163px;
+  height: 36px;
+  padding: 5px 9px 5px 24px;
+  font: bold 36px/1 Arial;
+  color: lime;
+  text-align: right;
+  text-shadow: black 0 1px 0;
+  background: transparent;
+  transition: all 0.15s ease;
+  -webkit-transition: all 0.15s ease;
+  -moz-transition: all 0.15s ease;
+  -o-transition: all 0.15s ease; }
+  label.dollar + .input:focus {
+    box-shadow: rgba(0, 0, 0, 0.15) 0 0 3px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 0 3px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.15) 0 0 3px; }
+
+li.submit button {
+  display: block;
+  width: 172px;
+  padding: 3px;
+  margin: 18px auto 0;
+  background: rgba(255, 255, 255, 0.15);
+  border: none;
+  border-radius: 22px;
+  -webkit-border-radius: 22px;
+  -moz-border-radius: 22px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 0 3;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 0 3;
+  -moz-box-shadow: rgba(0, 0, 0, 0.3) 0 0 3;
+  transition: all 0.15s ease;
+  -webkit-transition: all 0.15s ease;
+  -moz-transition: all 0.15s ease;
+  -o-transition: all 0.15s ease;
+  cursor: pointer; }
+  li.submit button span {
+    display: block;
+    margin: 0 -1px;
+    font: bold 18px/36px Arial;
+    color: white;
+    text-shadow: rgba(0, 0, 0, 0.4) 0 0 5px;
+    background: #64c8ff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#64c8ff), to(#00324b));
+    background: -moz-linear-gradient(#64c8ff, #00324b);
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px; }
+  li.submit button:active span {
+    background: #00324b;
+    background: -webkit-gradient(linear, left top, left bottom, from(#00324b), to(#64c8ff));
+    background: -moz-linear-gradient(#00324b, #64c8ff); }
+
+body {
+  font: 16px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
+  color: #333333;
+  background: white; }
+
+a {
+  color: #bcb6a9;
+  text-decoration: none;
+  font-weight: bold; }
+  a:hover, a:focus {
+    color: #bc1016; }
+
+/*---------------------------------------------------------------------- */
+#header {
+  height: 200px;
+  background: url(tile-header.png) bottom; }
+  #header .nav {
+    height: 200px;
+    background: rgba(255, 255, 255, 0.2); }
+    #header .nav h1#logo {
+      text-indent: -999em;
+      width: 324px;
+      padding: 0 6px;
+      float: left; }
+      #header .nav h1#logo a {
+        background: url(logo.png) no-repeat;
+        display: block;
+        width: 229px;
+        height: 246px;
+        margin: -20px auto 0; }
+    #header .nav ul {
+      width: 672px;
+      float: left;
+      margin-top: 45px; }
+      #header .nav ul li {
+        float: left;
+        margin-right: 24px; }
+        #header .nav ul li a {
+          display: block;
+          padding: 0 8px;
+          font: 24px/1 "Helvetica Neue", Arial, Helvetica, sans-serif;
+          text-transform: lowercase;
+          letter-spacing: 1px; }
+
+/*---------------------------------------------------------------------- */
+#content {
+  background: url(tile.png); }
+  #content #clothing {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 84px 0; }
+    #content #clothing ul {
+      overflow: hidden;
+      margin-left: 21px; }
+      #content #clothing ul li {
+        width: 324px;
+        padding: 0 6px;
+        float: left;
+        width: 308px;
+        padding: 0 21px 1.5em 0; }
+        #content #clothing ul li a {
+          display: block; }
+          #content #clothing ul li a img {
+            padding: 3px;
+            border: 1px dashed #d3cfc5;
+            margin: 0 0 0.5em; }
+          #content #clothing ul li a p.name {
+            color: #333333; }
+          #content #clothing ul li a p.price {
+            color: #b1aa9a; }
+          #content #clothing ul li a:hover img {
+            border: 1px solid #bc1016; }
+
+/*---------------------------------------------------------------------- */

@@ -1,0 +1,93 @@
+@import reset
+@import grid
+@import monochrome
+@import mixins
+@import forms
+
+body
+  font: 16px/1.5 $sans
+  color: #333
+  background: #fff
+
+$link: hsl(42,13,70%)
+$hover: hsl(358,84,40%)
+
+a
+  color: $link
+  text-decoration: none
+  font-weight: bold
+  &:hover, &:focus
+    color: $hover
+
+/*----------------------------------------------------------------------
+
+$translucent: rgba(255,255,255,.2)
+
+#header
+  height: 200px
+  background: url(tile-header.png) bottom
+
+  .nav
+    @extend .cnt
+    height: 200px
+    background: $translucent    
+
+    h1#logo
+      text-indent: -999em
+      +col($s4)
+      a
+        background: url(logo.png) no-repeat
+        display: block
+        width: 229px
+        height: 246px
+        margin: -20px auto 0
+     
+    ul
+      +flush($s8)
+      margin-top: 45px
+      li
+        float: left
+        margin-right: 24px
+        a
+          display: block
+          padding: 0 8px
+          font: 24px/1 $sans
+          text-transform: lowercase
+          letter-spacing: 1px
+
+/*----------------------------------------------------------------------
+
+#content
+  background: url(tile.png)
+
+  #clothing
+    @extend .cnt
+    background: $translucent
+    padding: $s1 0
+    ul
+      overflow: hidden
+      margin-left: 21px
+      li
+        +col($s4)
+        width: $s4 - 28px
+        padding: 0 21px 1.5em 0
+        a
+          display: block
+          img
+            padding: 3px
+            border: 1px dashed hsl(42,13,80%)
+            margin: 0 0 .5em
+          p
+            &.name
+              color: #333
+            &.price
+              color: hsl(42,13,65%)
+
+          &:hover
+            img
+              border: 1px solid $hover
+
+/*----------------------------------------------------------------------
+
+footer
+  @extend .cnt
